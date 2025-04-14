@@ -47,7 +47,7 @@ img {
 }
 
 .wrapper {
-  max-width: 90%;
+  max-width: 660px;
   margin: 0 auto;
 }
 
@@ -163,6 +163,10 @@ footer p {
 
 @media (min-width: 768px) {
 
+  .wrapper {
+    max-width: 900px;
+  }
+  
   .intro .grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -187,6 +191,10 @@ footer p {
 
 @media (min-width: 960px) {
 
+  .wrapper {
+    max-width: 1200px;
+  }
+  
   .intro {
     display: flex;
     gap: 2em;
